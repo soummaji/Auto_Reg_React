@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 
 import SideNav, {
@@ -9,13 +9,14 @@ import SideNav, {
   NavText
 } from "@trendmicro/react-sidenav";
 
-function Navbar(props) {
-    const state = { isVisible: true };
+const Navbar =()=> {
+    const [state, setState] = useState({isVisible: true});
     return (
-      <SideNav expanded={this.state.isVisible}>
+
+      <SideNav expanded={state.isVisible}>
         <SideNav.Toggle
           onClick={() => {
-            this.setState({ isVisible: !this.state.isVisible });
+            setState({ isVisible: !state.isVisible });
           }}
         />
         <SideNav.Nav defaultSelected="home">
