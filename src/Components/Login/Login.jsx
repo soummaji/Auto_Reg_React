@@ -14,7 +14,7 @@ const Login = () => {
             <div className="container">
                 <div className="row align-items-center vh-100">
                     <div className="col-6 mx-auto">
-                        <div className="card" style={{ "backgroundColor": "#EAE6E6" }}>
+                        <div className="card" style={{ "backgroundColor": "#F8F4F4" }}>
                             <div className="card-body ">
                                 <h5 className="card-title d-flex flex-column align-items-center">Log On</h5>
                                 <div>E-Mail</div>
