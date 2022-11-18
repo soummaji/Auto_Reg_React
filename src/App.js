@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
-import SideNavBar from './Components/Navbar/Navbar';
+import SideNavBar from './Components/Sidebar/Sidebar';
 function App() {
   return (
     <div>
