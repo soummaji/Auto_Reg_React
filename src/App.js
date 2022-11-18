@@ -3,10 +3,11 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
-
+import SideNavBar from './Components/Navbar/Navbar';
 function App() {
   return (
     <div>
+      <SideNavBar />
       <Router>
         <Routes>
           <Route exact path='/home' element={<Home/>} />
