@@ -12,7 +12,6 @@ import SideNav, {
 const Navbar =()=> {
     const [state, setState] = useState({isVisible: true});
     return (
-
       <SideNav expanded={state.isVisible}>
         <SideNav.Toggle
           onClick={() => {
