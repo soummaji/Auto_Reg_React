@@ -7,6 +7,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Application from './Components/Pages/Application';
 import UserManagement from './Components/Pages/UserManagement';
 import Login from './Components/Login/Login'
+import Help from './Components/Pages/Help';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home" element={<Sidebar><Home /></Sidebar>} />
         <Route path="/application" element={<Sidebar><Application /></Sidebar>} />
         <Route path="/userManagement" element={<Sidebar><UserManagement /></Sidebar>} />
+        <Route path="/help" element={<Sidebar><Help /></Sidebar>} />
       </Routes>
     </div>
   );

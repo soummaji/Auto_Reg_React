@@ -31,7 +31,7 @@ const Sidebar = ({children}) => {
                     <div className="icon"><i className="bi bi-people"></i></div>
                     <div style={{ display: isOpen ? "block" : "none" }} className="link_text">User Management</div>
                 </Link>
-                <Link to="#" className="link">
+                <Link to="/help" className="link">
                     <div className="icon"><i className="bi bi-info-circle"></i></div>
                     <div style={{ display: isOpen ? "block" : "none" }} className="link_text">Need Help</div>
                 </Link>
