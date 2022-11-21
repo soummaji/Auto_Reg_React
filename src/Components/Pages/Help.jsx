@@ -17,7 +17,7 @@ const Home = () => {
             <li><a className="dropdown-item" href="#">link 1 </a></li>
             <li><a className="dropdown-item" href="#">link 2 </a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Sign Out </a></li>
+            <li><a className="dropdown-item" href="/">Sign Out </a></li>
           </ul>
         </div>
 
@@ -29,39 +29,39 @@ const Home = () => {
             <h5>Help Section</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
-                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px" }}>
+                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px", height: "200px" }}>
                   <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Frequently asked questions</h6><br></br>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Get quick answers to your questions</p><br /><br />
-                    <i class="bi bi-chat-left-text-fill"></i>
+                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Frequently asked questions</h6>
+                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Get quick answers to your questions</p>
+                    <i class="bi bi-chat-left-text-fill" style={{ fontSize: "50px" }}></i>
                   </div>
                 </div>
-                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px" }}>
+                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px", height: "200px" }}>
                   <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Application Help</h6><br></br>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Help information for the different applications</p><br></br>
-                    <i class="bi bi-grid-3x3-gap-fill"></i>
+                    <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Application Help</h6>
+                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Help information for the different applications</p>
+                    <i class="bi bi-grid-3x3-gap-fill" style={{ fontSize: "50px" }}></i>
                   </div>
                 </div>
-                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px" }}>
+                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px", height: "200px" }}>
                   <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Start Guided Tour</h6><br></br>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Get to know the most important portal functions</p><br></br>
-                    <i class="bi bi-map-fill"></i>
+                    <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Start Guided Tour</h6>
+                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Get to know the most important portal functions</p>
+                    <i class="bi bi-map-fill" style={{ fontSize: "50px" }}></i>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card-body" style={{ backgroundColor: "#EAE9E9" }}>
+
+
             <h5>No solution found above? Feel free to contact us</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
-                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>
+                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "250px", height: "200px" }}>
                   <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Contact Us</h6><br></br>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Use the form to contact our support team</p><br /><br />
-                    <i class="bi bi-person-rolodex"></i>
+                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Contact Us</h6>
+                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Use the form to contact our support team</p>
+                    <i class="bi bi-person-rolodex" style={{ fontSize: "50px"}}></i>
 
                   </div>
                 </div>

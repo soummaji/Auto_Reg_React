@@ -12,14 +12,14 @@ const Login = () => {
 
   return (
     <div>
-      <div className='text-center mx-auto mt-5'>
+      <div className='text-center mx-auto mt-5 mb-4'>
         <img src={img} style={{ position: "", width: "120px" }} />
       </div>
 
       <div className="container">
         <div className="row align-items-center vh-100">
           <div className="col-8 mx-auto">
-            <div className="card border-0" style={{ backgroundColor: "#EAE9E9", bottom: "100px",height:"300px" }}>
+            <div className="card border-0" style={{ backgroundColor: "#EAE9E9", bottom: "100px",height:"350px" }}>
               <div className="card-body ">
                 <div className='container col-7 mt-3'>
                   <h3 className="card-title text-center">Log On</h3>

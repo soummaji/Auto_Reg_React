@@ -17,7 +17,7 @@ const Home = () => {
             <li><a className="dropdown-item" href="#">link 1 </a></li>
             <li><a className="dropdown-item" href="#">link 2 </a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Sign Out </a></li>
+            <li><a className="dropdown-item" href="/">Sign Out </a></li>
           </ul>
         </div>
 
