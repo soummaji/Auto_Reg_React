@@ -56,17 +56,13 @@ const Application = () => {
               <h5>Logistics</h5>
               <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>
                   <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Astras <i class="bi bi-info-circle small"></i></h6>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Request for quotation</p><br /><br />
+                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Foreign Trade Zone <i class="bi bi-info-circle small"></i></h6>
+                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Manual creation FTZ documents by service-provider</p><br /><br />
 
                     <div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
-                      <button className="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
-                        Start
+                      <button className="btn btn-danger">
+                        Open
                       </button>
-                      <ul className="dropdown-menu dropdown-menu-dark">
-                        <li><a className="dropdown-item" href="#">Astras app link 1 </a></li>
-                        <li><a className="dropdown-item" href="#">Astras app link 2 </a></li>
-                      </ul>
                     </div>
 
                   </div>
