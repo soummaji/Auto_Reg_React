@@ -44,6 +44,11 @@ const Home = () => {
                       </ul>
                     </div>
 
+                    <div class="position-absolute bottom-0 start-0  mb-3 ms-3">
+                    <i class="bi bi-circle me-1"></i>
+                    <i class="bi bi-circle me-1"></i>
+                    <i class="bi bi-circle"></i></div>
+
                   </div>
                 </div>
                 <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>

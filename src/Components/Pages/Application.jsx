@@ -42,6 +42,11 @@ const Application = () => {
                         </ul>
                       </div>
 
+                      <div class="position-absolute bottom-0 start-0  mb-3 ms-3">
+                        <i class="bi bi-circle me-1"></i>
+                        <i class="bi bi-circle me-1"></i>
+                        <i class="bi bi-circle"></i></div>
+
                     </div>
                   </div>
 
@@ -49,6 +54,10 @@ const Application = () => {
                     <div className="card-body">
                       <h6 className="position-absolute top-0 start-0 mt-2 ms-3">BCN_Extended <i class="bi bi-info-circle small"></i></h6>
                       <p className="mt-2" style={{ marginLeft: "-20px" }}>SharePoint cooperation platform by Brose Group</p>
+                      <div class="position-absolute bottom-0 start-0  mb-3 ms-3">
+                        <i class="bi bi-circle me-1"></i>
+                        <i class="bi bi-circle me-1"></i>
+                        <i class="bi bi-circle"></i></div>
                     </div>
                   </div>
                 </div>
@@ -67,17 +76,18 @@ const Application = () => {
                         </button>
                       </div>
 
+
                     </div>
                   </div>
 
-                  <div className="card col-md-3 me-3 my-3 p-3 mb-5" style={{ width: "300px",  background: "#dddddd"}}>
+                  <div className="card col-md-3 me-3 my-3 p-3 mb-5" style={{ width: "300px", background: "#dddddd" }}>
                     <div className="card-body">
                       <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Claim Processing 8D</h6>
                       <p className="mt-2" style={{ marginLeft: "-20px" }}>8D processing supplier</p><br /><br />
                     </div>
                   </div>
 
-                  <div className="card col-md-3 me-3 my-3 p-3 mb-5" style={{ width: "300px" , background: "#dddddd"}}>
+                  <div className="card col-md-3 me-3 my-3 p-3 mb-5" style={{ width: "300px", background: "#dddddd" }}>
                     <div className="card-body">
                       <h6 className="position-absolute top-0 start-0 ms-3 mt-2">BroCAR</h6>
                       <p className="mt-2" style={{ marginLeft: "-20px" }}>Exchange between Brose and its carriers of invoice information.</p><br /><br />
