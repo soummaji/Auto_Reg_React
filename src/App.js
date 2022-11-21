@@ -1,20 +1,23 @@
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home/Home';
-import SideNavBar from './Components/Sidebar/Sidebar';
+import { Route, Routes } from 'react-router-dom';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Application from './Components/Pages/Application';
+import UserManagement from './Components/Pages/UserManagement';
 import Login from './Components/Login/Login';
+
+
 function App() {
   return (
     <div>
-      <SideNavBar />
-      <Router>
-        <Routes>
-        <Route exact path='/' element={<Login/>} />
-          <Route exact path='/home' element={<Home/>} />
+        <Routes>  
+        <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/application" element={<Application />} />
+          <Route path="/userManagement" element={<UserManagement />} />
         </Routes>
-      </Router>
     </div>
   );
 }
