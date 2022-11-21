@@ -1,10 +1,11 @@
 
 import React from 'react'
-import Sidebar from '../Sidebar/Sidebar'
 
 const Home = () => {
+
+
   return (
-    <Sidebar>
+    <>
       <div >
         <h4 style={{ position: "relative", top: "-10px" }}> Home</h4>
 
@@ -24,8 +25,8 @@ const Home = () => {
           <div className='card-header bg-dark border border-dark' style={{ position: "relative", color: "#F3F2F2" }}>
             <div className='ms-1'>Home</div>
           </div>
-          <div class="card-body" style={{backgroundColor:"#EAE9E9"}}>
-            <h6>My Applications</h6>
+          <div class="card-body" style={{ backgroundColor: "#EAE9E9" }}>
+            <h5>My Applications</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
                 <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>
@@ -57,7 +58,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </Sidebar>
+    </>
   )
 }
 
