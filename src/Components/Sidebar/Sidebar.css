@@ -33,9 +33,8 @@
     color: rgb(240, 238, 238);
     height:100vh;
     width: 200px;
-    transition: all 0.1s;
-    /* position:fixed; */
-    
+    transition: all 0.1s;  
+   
 }
 
 .top_section {
@@ -89,4 +88,5 @@
 .inner-components{
     width: 100%;
     padding: 20px;
+    /* position: relative; */
 }

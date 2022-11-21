@@ -7,7 +7,6 @@ const Application = () => {
       <>
         <div >
           <h4 style={{ position: "relative", top: "-10px" }}>Application</h4>
-
           <div className="btn-group position-absolute top-0 end-0 mx-4 my-2 dropdown-center">
             <button className="btn bg-transparent dropdown-toggle border-0" data-bs-toggle="dropdown">
               (Schenker Deutschland AG - ABSZZ8A175)
