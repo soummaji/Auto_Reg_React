@@ -32,7 +32,7 @@
 .sidebar {
     background: #000;
     color: rgb(240, 238, 238);
-    height:130vh;
+    height:120vh;
     width: 200px;
     transition: all 0.1s;
     overflow: hidden;
