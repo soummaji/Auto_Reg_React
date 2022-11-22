@@ -25,16 +25,17 @@
 }
 
 .nav-container {
-    display:flex;    
+    display:flex;
+    
 }
 
 .sidebar {
     background: #000;
     color: rgb(240, 238, 238);
-    height:100vh;
+    height:130vh;
     width: 200px;
-    transition: all 0.1s;  
-   
+    transition: all 0.1s;
+    overflow: hidden;
 }
 
 .top_section {
@@ -88,5 +89,4 @@
 .inner-components{
     width: 100%;
     padding: 20px;
-    /* position: relative; */
 }
