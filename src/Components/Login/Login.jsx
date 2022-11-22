@@ -24,9 +24,9 @@ const Login = () => {
                 <div className='container col-7 mt-3'>
                   <h3 className="card-title text-center">Log On</h3>
                   <div>E-Mail</div>
-                  <input className="form-control form-control-sm shadow " type="text" />
+                  <input className="form-control form-control-sm shadow " type="email" />
                   <div className='mt-2'>Password</div>
-                  <input className="form-control form-control-sm shadow" type="text" />
+                  <input className="form-control form-control-sm shadow" type="password" />
 
                   <div className='mt-2'>
                     <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
