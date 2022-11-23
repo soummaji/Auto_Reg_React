@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom';
 import { useState } from 'react';
-import './Sidebar.css'
+import './Sidebar.scss'
 import img from "../../images/brose.png"
 import logo from "../../images/Capgemini.png"
 
