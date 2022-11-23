@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import img from '../../images/brose-login.png'
+import './Login.scss'
 
 const Login = () => {
 
@@ -13,13 +14,13 @@ const Login = () => {
   return (
     <div>
       <div className='text-center mx-auto mt-5 mb-4'>
-        <img src={img} style={{ position: "", width: "120px" }} />
+        <img src={img} id="login-img" />
       </div>
 
       <div className="container">
         <div className="row align-items-center vh-100">
           <div className="col-8 mx-auto">
-            <div className="card border-0" style={{ backgroundColor: "#EAE9E9", bottom: "100px",height:"350px" }}>
+            <div className="card border-0" id="login-card">
               <div className="card-body ">
                 <div className='container col-7 mt-3'>
                   <h3 className="card-title text-center">Log On</h3>
@@ -29,7 +30,7 @@ const Login = () => {
                   <input className="form-control form-control-sm shadow" type="password" />
 
                   <div className='mt-2'>
-                    <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <input className="form-check-input" type="checkbox" />
                     <label className="form-check-label ms-1">
                       Remember me
                     </label>
@@ -37,7 +38,7 @@ const Login = () => {
 
 
                   <div className="d-grid gap-2 mt-3">
-                    <button href="#" className="btn btn-danger btn-sm" onClick={navigate}>Log On</button>
+                    <button className="btn btn-danger btn-sm" onClick={navigate}>Log On</button>
                   </div>
                 </div>
               </div>

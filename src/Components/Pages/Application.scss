@@ -1,0 +1,29 @@
+#application {
+    position: relative;
+    top: -10px
+}
+
+#appli-parent-card {
+    position: relative;
+    color: #F3F2F2;
+}
+
+#appli-parent-card-body {
+    background-color: #EAE9E9;
+}
+
+#appli-child-card {
+    width: 350px;
+
+    p {
+        margin-left: -20px;
+    }
+}
+
+#appli-child-card-2 {
+    width: 300px;
+
+    p {
+        margin-left: -20px;
+    }
+}

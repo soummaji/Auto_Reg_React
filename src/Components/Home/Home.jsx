@@ -1,19 +1,19 @@
 
 import React from 'react'
-
+import './Home.scss'
 const Home = () => {
 
 
   return (
     <>
       <div >
-        <h4 style={{ position: "relative", top: "-10px" }}> Home</h4>
+        <h4 id="home" > Home</h4>
 
-        <div className="btn-group position-absolute top-0 end-0 mx-4 my-2 dropdown-center">
+        <div className="btn-group position-absolute top-0 end-0 mx-4 my-2 dropdown-center" >
           <button className="btn bg-transparent dropdown-toggle border-0" data-bs-toggle="dropdown">
             (Schenker Deutschland AG - ABSZZ8A175)
           </button>
-          <ul className="dropdown-menu">
+          <ul className="dropdown-menu" style={{position:"relative"}}>
             <li><a className="dropdown-item" href="#">link 1 </a></li>
             <li><a className="dropdown-item" href="#">link 2 </a></li>
             <li><hr class="dropdown-divider" /></li>
@@ -22,17 +22,17 @@ const Home = () => {
         </div>
 
         <div className="card border-0" >
-          <div className='card-header bg-dark border border-dark' style={{ position: "relative", color: "#F3F2F2" }}>
+          <div className='card-header bg-dark border border-dark' id="home-parent-card-header" >
             <div className='ms-1'>Home</div>
           </div>
-          <div class="card-body" style={{ backgroundColor: "#EAE9E9" }}>
+          <div class="card-body" id="home-parent-card-body">
             <h5>My Applications</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
-                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>
+                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="home-child-card">
                   <div className="card-body">
                     <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Astras <i class="bi bi-info-circle small"></i></h6>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Request for quotation</p><br /><br />
+                    <p className="mt-2">Request for quotation</p><br /><br />
 
                     <div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
                       <button className="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
@@ -44,17 +44,17 @@ const Home = () => {
                       </ul>
                     </div>
 
-                    <div class="position-absolute bottom-0 start-0  mb-3 ms-3">
-                    <i class="bi bi-circle me-1"></i>
-                    <i class="bi bi-circle me-1"></i>
-                    <i class="bi bi-circle"></i></div>
+                    <div className="position-absolute bottom-0 start-0  mb-3 ms-3" >
+                    <i className="bi bi-circle-fill me-1 "id="green" ></i>
+                    <i className="bi bi-circle-fill me-1" id="grey"></i>
+                    <i className="bi bi-circle-fill" id="grey"></i></div>
 
                   </div>
                 </div>
-                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" style={{ width: "350px" }}>
+                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="homechild-card">
                   <div className="card-body">
                     <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Foreign Trade Zone <i class="bi bi-info-circle small"></i></h6>
-                    <p className="mt-2" style={{ marginLeft: "-20px" }}>Manual creation FTZ documents by service-provider</p>
+                    <p className="mt-2">Manual creation FTZ documents by service-provider</p>
                     <button className='btn btn-danger position-absolute bottom-0 end-0 mx-2 my-2'>Open</button>
                   </div>
                 </div>

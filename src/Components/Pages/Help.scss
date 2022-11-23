@@ -1,0 +1,24 @@
+#help {
+    position: relative;
+    top: -10px;
+}
+
+#help-parent-card-header {
+    position: relative;
+    color: #F3F2F2;
+}
+
+#help-parent-card-body {
+    background-color: #EAE9E9;
+}
+
+#help-child-card{
+    width: 250px;
+    height: 200px;
+    p{
+        margin-left: -20px;
+    }
+    i{
+        font-size: 50px;
+    }
+}
