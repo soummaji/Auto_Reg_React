@@ -1,0 +1,46 @@
+#userManagement {
+    position: relative;
+    top: -10px;
+}
+
+#user-parent-card-header {
+    position: relative;
+    color: #F3F2F2;
+}
+
+#user-parent-card-body {
+    background-color: #EAE9E9;
+}
+
+#user-child-card {
+    width: 250px;
+    height: 200px;
+
+    p {
+        margin-left: -20px;
+    }
+
+    .bi-person-check-fill {
+        font-size: 50px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .bi-person-fill-lock {
+        font-size: 50px;
+        position: relative;
+        top: 10px;
+    }
+
+    .bi-person-fill-gear {
+        font-size: 50px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .bi-person-plus-fill {
+        font-size: 50px;
+        position: relative;
+        top: 30px;
+    }
+}
