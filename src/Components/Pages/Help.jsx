@@ -9,18 +9,6 @@ const Home = () => {
       <div >
         <h4 id="help"> Need Help</h4>
 
-        <div className="btn-group position-absolute top-0 end-0 mx-4 my-2 dropdown-center">
-          <button className="btn bg-transparent dropdown-toggle border-0" data-bs-toggle="dropdown">
-            (Schenker Deutschland AG - ABSZZ8A175)
-          </button>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">link 1 </a></li>
-            <li><a className="dropdown-item" href="#">link 2 </a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="/">Sign Out </a></li>
-          </ul>
-        </div>
-
         <div className="card border-0"  >
           <div className='card-header bg-dark border border-dark' id="help-parent-card-header">
             <div className='ms-1'>Home / Need Help</div>
