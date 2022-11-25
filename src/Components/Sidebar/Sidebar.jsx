@@ -28,9 +28,9 @@ const Sidebar = ({ children }) => {
                 <li><a className="dropdown-item" href="#">Dummy empty resource 443 - 443</a></li>
                 <li><a className="dropdown-item" href="#">Dummy empty resource 441 - 441</a></li>
                 <li><a className="dropdown-item" href="#">Join other legal entity</a></li>
-                <li><hr class="dropdown-divider" /></li>
+                <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="/">Manage Account </a></li>
-                <li><hr class="dropdown-divider" /></li>
+                <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="/">Sign Out </a></li>
             </ul>
         </div><div className="d-flex">
