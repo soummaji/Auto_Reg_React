@@ -19,7 +19,7 @@ const Home = () => {
             <div className="mx-auto ms-2 me-2">
               <div className="row">
 
-                {home.map((item, index) => {
+                {home.map((item) => {
                   return (
                     <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="home-child-card">
                       <div className="card-body">
@@ -44,9 +44,9 @@ const Home = () => {
                           <i className="bi bi-circle-fill" id="grey"></i></div> */}
 
                         {item.Access == "Green" ? (<div className="position-absolute bottom-0 start-0  mb-3 ms-3" >
-                          <i className="bi bi-circle-fill me-1 " id="green" ></i>
+                          <i className="bi bi-circle-fill me-1 " id="grey" ></i>
                           <i className="bi bi-circle-fill me-1" id="grey"></i>
-                          <i className="bi bi-circle-fill" id="grey"></i></div>) : (
+                          <i className="bi bi-circle-fill" id="green"></i></div>) : (
                           ""
                         )}
 
