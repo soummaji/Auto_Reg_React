@@ -41,8 +41,7 @@ const application = [
                 Access: "NA",
                 Button: "NA",
                 Enabled:false
-            }
-
+            },
         ]
     }
 ]
