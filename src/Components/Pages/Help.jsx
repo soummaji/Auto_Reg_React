@@ -1,6 +1,8 @@
 
 import React from 'react'
 import './Help.scss'
+import help from '../Data/help'
+
 const Home = () => {
 
 
@@ -17,14 +19,21 @@ const Home = () => {
             <h5>Help Section</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
-                <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
-                  <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Frequently asked questions</h6>
-                    <p className="mt-2">Get quick answers to your questions</p>
-                    <i className="bi bi-chat-left-text-fill"></i>
-                  </div>
-                </div>
-                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
+                {help.map((item) => {
+                  return (
+                    <>{item.helpSection.map((data) => {
+                      return (<div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
+                        <div className="card-body">
+                          <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name}</h6>
+                          <p className="mt-2">{data.Desc}</p>
+                          <i className="bi bi-chat-left-text-fill"></i>
+                        </div>
+                      </div>)
+                    })}</>
+                  )
+                })}
+
+                {/*<div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
                   <div className="card-body">
                     <h6 className="position-absolute top-0 start-0 mt-2 ms-3">Application Help</h6>
                     <p className="mt-2" >Help information for the different applications</p>
@@ -37,7 +46,7 @@ const Home = () => {
                     <p className="mt-2" >Get to know the most important portal functions</p>
                     <i className="bi bi-map-fill" ></i>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -45,13 +54,21 @@ const Home = () => {
             <h5>No solution found above? Feel free to contact us</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
-                <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
-                  <div className="card-body">
-                    <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Contact Us</h6>
-                    <p className="mt-2" >Use the form to contact our support team</p>
-                    <i className="bi bi-person-rolodex" ></i>
-                  </div>
-                </div>
+                {help.map((item) => {
+                  return (<>
+                    {item.noSolution.map((data) => {
+                      return (
+                        <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
+                          <div className="card-body">
+                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">Contact Us</h6>
+                            <p className="mt-2" >Use the form to contact our support team</p>
+                            <i className="bi bi-person-rolodex" ></i>
+                          </div>
+                        </div>
+                      )
+                    })}</>
+                  )
+                })}
               </div>
             </div>
           </div>

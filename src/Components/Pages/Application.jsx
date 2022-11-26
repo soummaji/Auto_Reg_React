@@ -74,7 +74,7 @@ const Application = () => {
                     <div className='row'>
                       {item.Logistics.map((data) => {
                         return (
-                          <>{data.Enabled == true ? (<div className="card border-0 col-md-3 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card-2" >
+                          <>{data.Enabled == true ? (<div className="card border-0 col-md-3 me-3 mt-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card-2" >
                             <div className="card-body">
                               <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i class="bi bi-info-circle small"></i></h6>
                               <p className="mt-2">{data.Desc}</p><br /><br />
@@ -84,7 +84,7 @@ const Application = () => {
                                 </button>
                               </div>) : ("")}
                             </div>
-                          </div>) : (<div className="card col-md-3 me-3 my-3 p-3 mb-5" id="appli-child-card-2" style={{ background: "#dddddd" }} >
+                          </div>) : (<div className="card col-md-3 me-3 mt-3 p-3 mb-5" id="appli-child-card-2" style={{ background: "#dddddd" }} >
                             <div className="card-body">
                               <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i class="bi bi-info-circle small"></i></h6>
                               <p className="mt-2">{data.Desc}</p><br /><br />
