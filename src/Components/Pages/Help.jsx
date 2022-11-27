@@ -15,14 +15,14 @@ const Home = () => {
           <div className='card-header bg-dark border border-dark' id="help-parent-card-header">
             <div className='ms-1'>Home / Need Help</div>
           </div>
-          <div class="card-body" id="help-parent-card-body">
+          <div className="card-body" id="help-parent-card-body">
             <h5>Help Section</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
                 {help.map((item) => {
                   return (
                     <>{item.helpSection.map((data) => {
-                      return (<div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
+                      return (<div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="help-child-card">
                         <div className="card-body">
                           <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name}</h6>
                           <p className="mt-2">{data.Desc}</p>

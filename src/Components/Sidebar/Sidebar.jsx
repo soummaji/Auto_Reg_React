@@ -44,7 +44,7 @@ const Sidebar = ({ children }) => {
 
 
                     <Link to="/home" className="link">
-                        <div className="icon"><i class="bi bi-house"></i></div>
+                        <div className="icon"><i className="bi bi-house"></i></div>
                         <div style={{ display: isOpen ? "block" : "none" }} className="link_text">Home</div>
                     </Link>
                     <Link to="/application" className="link">

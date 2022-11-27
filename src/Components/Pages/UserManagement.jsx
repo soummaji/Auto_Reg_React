@@ -14,7 +14,7 @@ const Home = () => {
           <div className='card-header bg-dark border border-dark' id="user-parent-card-header">
             <div className='ms-1'>Home / User Management</div>
           </div>
-          <div class="card-body" id="user-parent-card-body">
+          <div className="card-body" id="user-parent-card-body">
             <h5>New Users</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
@@ -23,9 +23,9 @@ const Home = () => {
                   return (
                     <>{item.newUsers.map((data) => {
                       return (
-                        <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="user-child-card">
+                        <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="user-child-card">
                           <div className="card-body">
-                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i class="bi bi-info-circle small"></i></h6>
+                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                             <p className="mt-2">{data.Desc}</p><br /><br />
                             <i className="bi bi-person-check-fill" ></i>
                           </div>
@@ -54,7 +54,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="card-body" style={{ backgroundColor: "#EAE9E9" }}>
+          <div className="card-body" style={{ backgroundColor: "#EAE9E9" }}>
             <h5>Manage Users with existing account</h5>
             <div className="mx-auto ms-2 me-2">
               <div className="row">
@@ -62,11 +62,11 @@ const Home = () => {
                   return (
                     <>{item.manageUsers.map((data) => {
                       return (
-                        <div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="user-child-card">
+                        <div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="user-child-card">
                           <div className="card-body">
-                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i class="bi bi-info-circle small"></i></h6>
+                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                             <p className="mt-2" >{data.Desc}</p><br /><br />
-                            <i class="bi bi-person-fill-gear" ></i>
+                            <i className="bi bi-person-fill-gear" ></i>
                           </div>
                         </div>
                       )

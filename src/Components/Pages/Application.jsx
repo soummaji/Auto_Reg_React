@@ -1,7 +1,6 @@
 import React from 'react'
 import './Application.scss'
 import application from '../Data/application'
-import { render } from '@testing-library/react'
 
 
 const Application = () => {
@@ -26,9 +25,9 @@ const Application = () => {
                   return (
                     <div className="row">
                       {item.Sourcing.map((data) => {
-                        return (<div class="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card">
+                        return (<div className="card border-0 col-md-5 me-3 my-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card">
                           <div className="card-body">
-                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i class="bi bi-info-circle small"></i></h6>
+                            <h6 className="position-absolute top-0 start-0 ms-3 mt-2">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                             <p className="mt-2">{data.Desc}</p><br /><br />
 
                             {data.Button == "Start" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
@@ -76,7 +75,7 @@ const Application = () => {
                         return (
                           <>{data.Enabled == true ? (<div className="card border-0 col-md-3 me-3 mt-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card-2" >
                             <div className="card-body">
-                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i class="bi bi-info-circle small"></i></h6>
+                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                               <p className="mt-2">{data.Desc}</p><br /><br />
                               {data.Button == "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
                                 <button className="btn btn-danger">
@@ -86,7 +85,7 @@ const Application = () => {
                             </div>
                           </div>) : (<div className="card col-md-3 me-3 mt-3 p-3 mb-5" id="appli-child-card-2" style={{ background: "#dddddd" }} >
                             <div className="card-body">
-                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i class="bi bi-info-circle small"></i></h6>
+                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                               <p className="mt-2">{data.Desc}</p><br /><br />
                               {data.Button == "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
                                 <button className="btn btn-danger">
