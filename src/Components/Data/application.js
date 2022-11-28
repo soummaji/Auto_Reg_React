@@ -134,7 +134,63 @@ const application = [
                 Button: "Open",
                 Enabled: false
             },
-        ]
+        ],
+        Collaboration: [
+            {
+                id: 1,
+                Name: "BCN",
+                Desc: "Sharepoint cooperation platform by Brose group",
+                Access: "NA",
+                Button: "Open",
+                Enabled: true
+            },
+            {
+                id: 2,
+                Name: "BCN_Extended",
+                Desc: "Sharepoint cooperation platform by Brose group",
+                Access: "Red",
+                Button: "NA",
+                Enabled: false
+            },
+        ],
+        Engineering: [
+            {
+                id: 1,
+                Name: "ECM",
+                Desc: "Engineering Change Management",
+                Access: "NA",
+                Button: "Open",
+                Enabled: true
+            },
+        ],
+        Supplier: [
+            {
+                id: 1,
+                Name: "SAP Ariba SLP",
+                Desc: "SAP Ariba module for supplier master data management (separate login) ",
+                Access: "NA",
+                Button: "Open",
+                Enabled: true
+            },
+            {
+                id: 2,
+                Name: "BROFIS",
+                Desc: "External portal for Brose standard and credit notes (separate login) ",
+                Access: "NA",
+                Button: "Open",
+                Enabled: true
+            },
+        ],
+        Purchasing: [
+            {
+                id: 1,
+                Name: "Delivery Date Tracking (POST) ",
+                Desc: "Request and confirmation of delivery date for purchase orders",
+                Access: "NA",
+                Button: "Open",
+                Enabled: true
+            },
+        ],
     }
 ]
 
