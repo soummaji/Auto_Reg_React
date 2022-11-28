@@ -87,7 +87,7 @@ const Application = () => {
                             <div className="card-body">
                               <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
                               <p className="mt-2">{data.Desc}</p><br /><br />
-                              <div className='position-absolute bottom-0 start-0 mb-3 ms-3' style={{fontSize:"13px"}}><i class="bi bi-file-earmark-lock2" style={{fontSize:"30px"}}></i> Not enabled for this supplier</div>
+                              <div className='position-absolute bottom-0 start-0 mb-3 ms-3' style={{fontSize:"13px", color:"gray"}}><i class="bi bi-file-earmark-lock2" style={{fontSize:"30px"}}></i> Not enabled for this supplier</div>
                               {data.Button == "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
                                 <button className="btn btn-danger">
                                   Open
