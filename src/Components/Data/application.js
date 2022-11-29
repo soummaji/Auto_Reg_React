@@ -98,7 +98,7 @@ const application = [
                 Desc: "Feasibility Study for supplier selection",
                 Access: "Red",
                 Button: "NA",
-                Enabled: false
+                Enabled: true
             },
             {
                 id: 5,
