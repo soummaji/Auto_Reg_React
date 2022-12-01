@@ -27,7 +27,7 @@ const Application = () => {
                     <div className="row">
                       {item.Sourcing.map((data) => {
                         return (
-                          <Card Name={data.Name} Desc={data.Desc} Access={data.Access} Button={data.Button}></Card>)
+                          <Card Name={data.Name} Desc={data.Desc} Access={data.Access} Button={data.Button} Enabled={data.Enabled}></Card>)
                       })}</div>
                   )
                 })}
@@ -42,29 +42,30 @@ const Application = () => {
                     <div className='row'>
                       {item.Logistics.map((data) => {
                         return (
-                          <>{data.Enabled === true ? (<div className="card border-0 col-md-3 me-3 mt-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card-2" >
-                            <div className="card-body">
-                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
-                              <p className="mt-2">{data.Desc}</p><br /><br />
-                              {data.Button === "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
-                                <button className="btn btn-danger">
-                                  Open
-                                </button>
-                              </div>) : ("")}
-                            </div>
-                          </div>) : (<div className="card col-md-3 me-3 mt-3 p-3 mb-5" id="appli-child-card-2" style={{ background: "#dddddd" }} >
-                            <div className="card-body">
-                              <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
-                              <p className="mt-2">{data.Desc}</p><br /><br />
-                              <div className='position-absolute bottom-0 start-0 mb-3 ms-3' style={{fontSize:"13px", color:"gray"}}><i class="bi bi-file-earmark-lock2" style={{fontSize:"30px"}}></i> Not enabled for this supplier</div>
-                              {data.Button === "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
-                                <button className="btn btn-danger">
-                                  Open
-                                </button>
-                              </div>) : ("")}
-                            </div>
-                          </div>)}
-                          </>
+                          <Card Name={data.Name} Desc={data.Desc} Access={data.Access} Button={data.Button} Enabled={data.Enabled}></Card>
+                          // <>{data.Enabled === true ? (<div className="card border-0 col-md-3 me-3 mt-3 shadow p-3 mb-5 bg-body rounded" id="appli-child-card-2" >
+                          //   <div className="card-body">
+                          //     <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
+                          //     <p className="mt-2">{data.Desc}</p><br /><br />
+                          //     {data.Button === "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
+                          //       <button className="btn btn-danger">
+                          //         Open
+                          //       </button>
+                          //     </div>) : ("")}
+                          //   </div>
+                          // </div>) : (<div className="card col-md-3 me-3 mt-3 p-3 mb-5" id="appli-child-card-2" style={{ background: "#dddddd" }} >
+                          //   <div className="card-body">
+                          //     <h6 className="position-absolute top-0 start-0 mt-2 ms-3 ">{data.Name} <i className="bi bi-info-circle small"></i></h6>
+                          //     <p className="mt-2">{data.Desc}</p><br /><br />
+                          //     <div className='position-absolute bottom-0 start-0 mb-3 ms-3' style={{fontSize:"13px", color:"gray"}}><i class="bi bi-file-earmark-lock2" style={{fontSize:"30px"}}></i> Not enabled for this supplier</div>
+                          //     {data.Button === "Open" ? (<div className="btn-group position-absolute bottom-0 end-0 mx-2 my-2">
+                          //       <button className="btn btn-danger">
+                          //         Open
+                          //       </button>
+                          //     </div>) : ("")}
+                          //   </div>
+                          // </div>)}
+                          // </>
                         )
                       })}
                     </div>

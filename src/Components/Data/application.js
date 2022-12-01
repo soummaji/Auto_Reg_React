@@ -7,6 +7,7 @@ const application = [
                 Desc: "Request for quotation",
                 Access: "Green",
                 Button: "Start",
+                Enabled: true
             },
 
             {
@@ -14,7 +15,8 @@ const application = [
                 Name: "BNC_Extended",
                 Desc: "SharePoint cooperation platform by Brose Group",
                 Access: "Red",
-                Button: "NA"
+                Button: "NA",
+                Enabled: true
             }
         ],
         Logistics: [
