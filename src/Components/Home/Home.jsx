@@ -23,7 +23,7 @@ const Home = () => {
 
                 {home.map((item) => {
                   return (
-                    <Card Name={item.Name} Desc={item.Desc} Button={item.Button} Access={item.Access} />)
+                    <Card Name={item.Name} Desc={item.Desc} Button={item.Button} Access={item.Access} Enabled={item.Enabled} />)
                 })}
 
               </div>

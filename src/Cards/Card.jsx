@@ -56,7 +56,7 @@ const Card = (props) => {
                             <li><a className="dropdown-item" href="#">Astras app link 2 </a></li>
                         </ul>
                     </div>
-                    ) : (<button className='btn btn-danger position-absolute bottom-0 end-0 mx-2 my-2'>Open</button>)}
+                    ) : props.Button === "open" ? (<button className='btn btn-danger position-absolute bottom-0 end-0 mx-2 my-2'>Open</button>):("")}
 
                     {props.Access === "Green" ? (<div className="position-absolute bottom-0 start-0  mb-3 ms-3" >
                         <i className="bi bi-circle-fill me-1 " id="grey" ></i>

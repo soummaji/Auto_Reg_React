@@ -152,7 +152,7 @@ const application = [
                 Desc: "Sharepoint cooperation platform by Brose group",
                 Access: "Red",
                 Button: "NA",
-                Enabled: false
+                Enabled: true
             },
         ],
         Engineering: [
@@ -161,8 +161,8 @@ const application = [
                 Name: "ECM",
                 Desc: "Engineering Change Management",
                 Access: "NA",
-                Button: "Open",
-                Enabled: true
+                Button: "NA",
+                Enabled: false
             },
         ],
         Supplier: [
@@ -172,7 +172,7 @@ const application = [
                 Desc: "SAP Ariba module for supplier master data management (separate login) ",
                 Access: "NA",
                 Button: "Open",
-                Enabled: true
+                Enabled: false
             },
             {
                 id: 2,
@@ -180,7 +180,7 @@ const application = [
                 Desc: "External portal for Brose standard and credit notes (separate login) ",
                 Access: "NA",
                 Button: "Open",
-                Enabled: true
+                Enabled: false
             },
         ],
         Purchasing: [
@@ -190,7 +190,7 @@ const application = [
                 Desc: "Request and confirmation of delivery date for purchase orders",
                 Access: "NA",
                 Button: "Open",
-                Enabled: true
+                Enabled: false
             },
         ],
     }
